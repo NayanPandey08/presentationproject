@@ -32,16 +32,19 @@ body{
 .page{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 110vh;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 4rem;
+    justify-content:auto
+        position:absolute;
+    padding: 2 4rem;
 }
 .page h1{
     font-size: 4rem;
+    padding:12 px;
     line-height: 1.2;
-    margin: 1rem;
+    margin: 2rem;
 }
 
 .page p{
@@ -56,6 +59,7 @@ body{
     text-decoration: none;
     margin-top: 0.5rem;
     transition: all 0.3s ease-in;
+list-style:none;
 }
 
 .btn:hover, .btn-dark{
